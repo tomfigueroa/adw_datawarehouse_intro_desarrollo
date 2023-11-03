@@ -1,7 +1,6 @@
 docker run -d ^
     --name mysql-adw ^
-    -p 3306:3306 ^
-    -p 33060:33060 ^
+    -p 33061:3306 ^
     -e MYSQL_ROOT_PASSWORD=secret ^
-    -v %cd%/scripts:/scripts ^
+    -v "%cd%/scripts:/scripts" ^
     mysql-adw

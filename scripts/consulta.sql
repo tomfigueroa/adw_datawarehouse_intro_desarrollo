@@ -2,6 +2,6 @@ use adw;
 
 -- Empleados
 select *
-from HumanResources_Employee
-limit 5
+from `Sales_SalesOrderHeader`
+limit 3
 ;
